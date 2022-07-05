@@ -10,7 +10,7 @@ export const ROUTE_MANIFEST = Object.freeze({
     title: 'Home',
   },
   LOG_IN: {
-    path: '/log-in',
+    path: '/login',
     title: 'Log in',
   },
   DASHBOARD: {

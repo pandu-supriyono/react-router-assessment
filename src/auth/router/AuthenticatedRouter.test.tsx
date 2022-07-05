@@ -54,7 +54,7 @@ describe('AuthenticatedRouter', () => {
     });
 
     expect(navigate).toHaveBeenCalledWith(
-      '/log-in',
+      '/login',
       expect.objectContaining({ replace: true })
     );
   });

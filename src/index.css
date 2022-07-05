@@ -7,6 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nav {
+  padding: 1rem 0;
+  border-bottom: 1px solid #b1b4b6;
+  margin-bottom: 3rem;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav__item--log-in {
+  margin-left: auto;
+}
+
+.nav__button--log-out {
+  margin-left: auto;
+}
+
 .label {
   display: block;
 }

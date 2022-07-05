@@ -23,6 +23,11 @@ body {
   flex-wrap: wrap;
 }
 
+.container {
+  max-width: min(calc(100vw - 2rem), 1200px);
+  margin-inline: auto;
+}
+
 .nav__item--log-in {
   margin-left: auto;
 }

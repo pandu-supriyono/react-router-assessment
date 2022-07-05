@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         <nav className="nav">
-          <ul className="nav__list">
+          <ul className="nav__list container">
             <li className="nav__item">
               <Link
                 to={ROUTE_MANIFEST.ROOT.path}
@@ -51,7 +51,7 @@ function App() {
           </ul>
         </nav>
       </div>
-      <main id="main">
+      <main id="main" className="container">
         <Outlet />
       </main>
     </>
